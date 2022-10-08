@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Irham Bahtiar</title>
-    <link href="dist/css/final.css" rel="stylesheet" />
+    <link href="dist/output.css" rel="stylesheet" />
     <script>
       if (localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
         document.documentElement.classList.add("dark");
@@ -36,7 +36,7 @@
             >
               <ul class="block lg:flex">
                 <li class="group">
-                  <a href="#home" class="mx-8 flex py-2 text-base text-dark text-dark group-hover:text-primary dark:text-white">Beranda</a>
+                  <a href="#home" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Beranda</a>
                 </li>
                 <li class="group">
                   <a href="#about" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Tentang Saya</a>
@@ -312,12 +312,12 @@
     <!-- Blog section end -->
 
     <!-- Contact section start -->
-    <section id="contact" class="pt-36 pb-32">
+    <section id="contact" class="pt-36 pb-32 dark:bg-slate-800">
       <div class="container">
         <div class="w-full px-4">
           <div class="mx-auto mb-16 max-w-xl text-center">
             <h4 class="mb-2 text-lg font-semibold text-primary">Contact</h4>
-            <h2 class="mb-4 text-3xl font-bold text-dark sm:text-4xl lg:text-5xl">Hubungi Kami</h2>
+            <h2 class="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl">Hubungi Kami</h2>
             <p class="text-md font-medium text-secondary md:text-lg">Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
